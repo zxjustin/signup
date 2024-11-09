@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid green;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.input-pair{
+    flex: 1;
+    gap: 1rem;
+}
+.L-container, .R-container {
+    flex: 1;
+}
+
+.left-container{
+    border: 1px solid red;
+    background-image: url('https://fastly.picsum.photos/id/47/200/300.jpg?hmac=qgEtmhYzb3otRNnLN3afPLzmn6VJKj6x86OGOjDcBxQ');
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.right-container{
+    border: 1px solid blue;
+}
