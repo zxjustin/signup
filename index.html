@@ -9,33 +9,52 @@
 <body>
     <div class="container">
         <div class="left-container">
-        <img src="https://fastly.picsum.photos/id/47/200/300.jpg?hmac=qgEtmhYzb3otRNnLN3afPLzmn6VJKj6x86OGOjDcBxQ" alt="Logo">
+            <div class="overlay"></div>
+            <div class="logo">
+                <h1>ODIN</h1>
+                <img src="odin.png" alt="Odin Logo">
+            </div>
         </div>
         <div class="right-container">
+            <div class="intro-text">
+                <p>This is not a real online service! You know you need something like this...</p>
+                <p><strong>You know you want to.</strong></p>
+            </div>
+
             <h2>Let's do this</h2>
             <form>
-                <div class="input-pair">
-                    <label for="Fname">First Name</label>
-                    <input type="text" id="Fname" name="Fname">
-                
-                    <label for="Lname">Last Name</label>
-                    <input type="text" id="Lame" name="Lname">
+                <div class="input-row">
+                    <div class="input-field">
+                        <label for="Fname">First Name</label>
+                        <input type="text" id="Fname" name="Fname">
+                    </div>
+                    <div class="input-field">
+                        <label for="Lname">Last Name</label>
+                        <input type="text" id="Lame" name="Lname">
+                    </div>
                 </div>
-                
-                <div class="input-pair">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
 
-                    <label for="number">Phone Number</label>
-                    <input type="number" id="number" name="number">
+                <div class="input-row">
+                    <div class="input-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="input-field">
+                        <label for="number">Phone Number</label>
+                        <input type="number" id="number" name="number">
+                    </div>
                 </div>
-                
-                <div class="input-pair">
-                    <label for="Password">Password</label>
-                    <input type="password" id="password" name="password">
 
-                    <label for="Cpassword">Confirm Password</label>
-                    <input type="password" id="Cpassword" name="Cpassword">
+                <div class="input-row">
+                    <div class="input-field">
+                        <label for="Password">Password</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    
+                    <div class="input-field">
+                        <label for="Cpassword">Confirm Password</label>
+                        <input type="password" id="Cpassword" name="Cpassword">
+                    </div>
                 </div>
                 <p class="error-message">* Password do not match</p>
 
